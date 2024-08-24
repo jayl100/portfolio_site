@@ -1,3 +1,4 @@
+
 /* MAIN */
 .main_text {
     position: relative;
@@ -19,7 +20,6 @@
 /*    font-size: 0.9rem ;*/
 /*}*/
 
-/* ---------- CARD CONTENTS ---------- */
 /* ---------- CARD CONTENTS ---------- */
 .card_container {
     display: flex;
@@ -83,42 +83,3 @@ header { margin: 0 auto; background: #ffffff; border-bottom: #d9d9d9 solid 1px;}
 .headerArea .search { display: flex; align-items: center; justify-content:  center; background: none; border: none; }
 .headerArea .search { display: flex; align-items: center; }
 header .nav { display: flex; flex-wrap: wrap; justify-content: center; align-items: center; height: 68px; margin-right: -16px;  }
-
-
-
-/* 디폴트 */
-.container { margin: 0 180px; }
-
-html, body {
-    font-family: "Pretendard", AppleGothic, "Apple SD Gothic Neo", sans-serif;
-    color: #000;
-    /*overflow: hidden;*/
-    margin: 0;
-    -ms-overflow-style: none;
-    ::-webkit-scrollbar {
-        display: none;
-    }
-}
-div {
-    display: block; unicode-bidi: isolate;
-}
-main {
-    display: block;
-}
-
-body {
-    box-sizing: border-box;
-    outline: 0;
-    line-height: 1;
-    position: relative;
-    margin: 0;
-    background-color: #f6f6f6;
-}
-
-article, header, nav, section {
-    display: block;
-}
-
-h1 { font-family: inherit; color: inherit; margin: 0; font-size: 2em; align-content: center}
-a { text-decoration: none; color: inherit; }
-ul { padding: 0; margin: 0; list-style: none; }
